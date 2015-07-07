@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{c9c9c2bb-5071-40bb-8b2d-35c8d8e061ed}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>RandomNPCGenerator.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
+    <InterpreterVersion>3.3</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="A.png" />
+    <Content Include="artTeamNamesAndTitles.txt" />
+    <Content Include="desktop.ini" />
+    <Content Include="map.png" />
+    <Content Include="twine_2.0.4\Twine 2.0.4\index.html" />
+    <Content Include="twine_2.0.4\Twine 2.0.4\rsrc\css\twine.css" />
+    <Content Include="twine_2.0.4\Twine 2.0.4\rsrc\css\twine_cdn.css" />
+    <Content Include="twine_2.0.4\Twine 2.0.4\rsrc\fonts\fontawesome-webfont.svg" />
+    <Content Include="twine_2.0.4\Twine 2.0.4\rsrc\fonts\nunito-light.svg" />
+    <Content Include="twine_2.0.4\Twine 2.0.4\rsrc\fonts\sourcecodepro.svg" />
+    <Content Include="twine_2.0.4\Twine 2.0.4\rsrc\fonts\sourcesanspro-bold.svg" />
+    <Content Include="twine_2.0.4\Twine 2.0.4\rsrc\fonts\sourcesanspro-bolditalic.svg" />
+    <Content Include="twine_2.0.4\Twine 2.0.4\rsrc\fonts\sourcesanspro-italic.svg" />
+    <Content Include="twine_2.0.4\Twine 2.0.4\rsrc\fonts\sourcesanspro-regular.svg" />
+    <Content Include="twine_2.0.4\Twine 2.0.4\rsrc\img\blueprint_large.png" />
+    <Content Include="twine_2.0.4\Twine 2.0.4\rsrc\img\blueprint_medium.png" />
+    <Content Include="twine_2.0.4\Twine 2.0.4\rsrc\img\blueprint_small.png" />
+    <Content Include="twine_2.0.4\Twine 2.0.4\rsrc\img\favicon.ico" />
+    <Content Include="twine_2.0.4\Twine 2.0.4\rsrc\img\klimas.png" />
+    <Content Include="twine_2.0.4\Twine 2.0.4\rsrc\img\logo-osx.svg" />
+    <Content Include="twine_2.0.4\Twine 2.0.4\rsrc\img\logo.ico" />
+    <Content Include="twine_2.0.4\Twine 2.0.4\rsrc\img\logo.svg" />
+    <Content Include="twine_2.0.4\Twine 2.0.4\rsrc\img\welcome_alpha.png" />
+    <Content Include="twine_2.0.4\Twine 2.0.4\rsrc\img\welcome_help.png" />
+    <Content Include="twine_2.0.4\Twine 2.0.4\rsrc\img\welcome_logo.png" />
+    <Content Include="twine_2.0.4\Twine 2.0.4\rsrc\img\welcome_save.png" />
+    <Content Include="twine_2.0.4\Twine 2.0.4\rsrc\img\welcome_thanks.png" />
+    <Content Include="twine_2.0.4\Twine 2.0.4\rsrc\js\twine.js" />
+    <Content Include="twine_2.0.4\Twine 2.0.4\rsrc\js\twine_cdn.js" />
+    <Content Include="twine_2.0.4\Twine 2.0.4\storyformats\Harlowe\format.js" />
+    <Content Include="twine_2.0.4\Twine 2.0.4\storyformats\Harlowe\icon.svg" />
+    <Content Include="twine_2.0.4\Twine 2.0.4\storyformats\Paperthin\format.js" />
+    <Content Include="twine_2.0.4\Twine 2.0.4\storyformats\Paperthin\icon.svg" />
+    <Content Include="twine_2.0.4\Twine 2.0.4\storyformats\Snowman\format.js" />
+    <Content Include="twine_2.0.4\Twine 2.0.4\storyformats\Snowman\icon.svg" />
+    <Content Include="WOTgrealDeveloper\CommandSwitches.ini" />
+    <Content Include="WOTgrealDeveloper\VersionHistory.txt" />
+    <Content Include="WOTgrealDeveloper\WOTAutoCorrect.ini" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="RandomNPCGenerator.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="twine_2.0.4\" />
+    <Folder Include="twine_2.0.4\Twine 2.0.4" />
+    <Folder Include="twine_2.0.4\Twine 2.0.4\rsrc\" />
+    <Folder Include="twine_2.0.4\Twine 2.0.4\rsrc\css" />
+    <Folder Include="twine_2.0.4\Twine 2.0.4\rsrc\fonts" />
+    <Folder Include="twine_2.0.4\Twine 2.0.4\rsrc\img" />
+    <Folder Include="twine_2.0.4\Twine 2.0.4\rsrc\js" />
+    <Folder Include="twine_2.0.4\Twine 2.0.4\storyformats\" />
+    <Folder Include="twine_2.0.4\Twine 2.0.4\storyformats\Harlowe" />
+    <Folder Include="twine_2.0.4\Twine 2.0.4\storyformats\Paperthin" />
+    <Folder Include="twine_2.0.4\Twine 2.0.4\storyformats\Snowman" />
+    <Folder Include="WOTgrealDeveloper" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\3.3" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>
